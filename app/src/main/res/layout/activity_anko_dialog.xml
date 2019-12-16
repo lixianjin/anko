@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".commons.dialogs.DialogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_long_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Toast"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_snack_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snack Bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_long_snack_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Snack Bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_click_snack_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Snack Bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog(yes(ok)/no(cancel))"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Custom Button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_appcompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Appcompat"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Custom View"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Select"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Select"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_other_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Other Select"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_indeterminate_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog Indeterminate"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_start_layout_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Layout Activity"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="xxxxxxxxxx"
+            android:textColorHint="@color/colorPrimary"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city"
+                android:textColorHint="@color/colorPrimary"
+                android:hint="@string/app_name" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
